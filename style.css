@@ -1,0 +1,88 @@
+*{
+    padding:0;
+    margin:0;
+    background-color:black;
+   
+}
+
+
+h1{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 40px;
+    background-color:#081b31;
+    color: white;
+}
+
+.choice{
+
+    height: 165px;
+    width: 165px;  
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover; 
+    border-radius: 5rem;                      /* TO convert Images into circles */
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 7rem;
+}
+
+
+
+.score-board{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+    gap:5rem;
+
+}
+
+#your-score,
+#computer-score{
+font-size: 4rem;
+color: white;
+}
+
+#comp,
+#you{
+    
+    color: white;
+}
+
+.msg-container{
+    margin-top:5rem; 
+    text-align: center;
+    margin-left: 2rem;
+}
+#msg{
+
+    gap: 2rem;
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding:1rem;
+    border-radius: 1rem;
+}
+
